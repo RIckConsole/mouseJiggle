@@ -30,7 +30,6 @@ func main() {
 	if random {
 		i := 1
 		for i == 1 {
-			//Get Screen Size
 			sx, sy := robotgo.GetScreenSize()
 			num := rand.Intn(400)
 			robotgo.MoveSmoothRelative(rand.Intn(num-5), rand.Intn(num-5), 2)
